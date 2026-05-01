@@ -1,0 +1,64 @@
+{
+  "name": "Taca",
+  "short": "taca_tf",
+  "description": "Komari Taca theme",
+  "version": "1.0.0",
+  "author": "tfhmc",
+  "url": "https://github.com/tfhmc/Taca",
+  "preview": "dist/assets/1.png",
+  "configuration": {
+    "type": "managed",
+    "name": {
+      "en": "Theme Settings",
+      "zh-CN": "主题设置"
+    },
+    "data": [
+      {
+        "name": {
+          "en": "Background",
+          "zh-CN": "背景"
+        },
+        "type": "title"
+      },
+      {
+        "key": "backgroundImageUrl",
+        "type": "string",
+        "default": "",
+        "name": {
+          "en": "Background Image URL",
+          "zh-CN": "背景图片链接"
+        },
+        "help": {
+          "en": "Set a background image URL for the whole site.",
+          "zh-CN": "填写背景图片网页链接，保存后生效。"
+        }
+      },
+      {
+        "key": "backgroundImageUrlDesktop",
+        "type": "string",
+        "default": "",
+        "name": {
+          "en": "Desktop Background URL (Optional)",
+          "zh-CN": "桌面端背景链接（可选）"
+        },
+        "help": {
+          "en": "Optional override for desktop.",
+          "zh-CN": "可选：单独覆盖桌面端背景。"
+        }
+      },
+      {
+        "key": "backgroundImageUrlMobile",
+        "type": "string",
+        "default": "",
+        "name": {
+          "en": "Mobile Background URL (Optional)",
+          "zh-CN": "移动端背景链接（可选）"
+        },
+        "help": {
+          "en": "Optional override for mobile.",
+          "zh-CN": "可选：单独覆盖移动端背景。"
+        }
+      }
+    ]
+  }
+}
